@@ -1,100 +1,484 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="15722" appversion="5.1" start="node1">
-  <panorama id="node1">
-    <input overlap="1" leveltilesize="510" levelingroll="1.3" levelingpitch="3.7" height="1344" width="1344" levelbias="0.400" levelbiashidpi="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level predecode="0" height="1344" width="1344" preload="0"/>
-      <level predecode="0" height="672" width="672" preload="0"/>
-      <level predecode="1" height="336" width="336" preload="1"/>
+<tour start="node1" apprev="15969" appversion="5.2.0">
+  <panorama hideabout="1" id="node1">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0.109411" levelingroll="7.29112e-304" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="157.5" fovmode="0">
-      <start tilt="0.101672" fov="70" pan="1.59075" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+    <view fovmode="0" pannorth="157.5">
+      <start tilt="0.543402" fov="102.551" projection="4" pan="-0.933454"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
       <min tilt="-90" fov="5" pan="0"/>
-      <max tilt="90" fov="120" fovfisheye="360" pan="360" fovstereographic="270" scaletofit="1"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
     </view>
-    <userdata description="" comment="" customnodeid="" longitude="-81.584569" copyright="" title="" info="" latitude="27.898250" source="" datetime="7/14/2017 12:41 PM" author="" tags="lw train depot"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" borderalpha="1" wordwrap="1" height="20" textalpha="1" width="180" border="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundalpha="1" borderradius="1"/>
-      <polystyle borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627"/>
-      <hotspot tilt="4.64" description="" target="" id="Point01" title="R0010022_20170714124202" url="{node2}" pan="1.81" skinid="ht_node"/>
+    <userdata description="325 S. Scenic Hwy Lake Wales, Florida 33853" tags="lw train depot" latitude="27.898250" title="Lake Wales Train Depot Museum" source="" comment="See the world around you!" info="Shot on: Ricoh Theta S" customnodeid="" copyright="Round View Tours &amp; Development" author="Curtis Coddington" datetime="7/14/2017 12:41 PM" longitude="-81.584569"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node2}" description="" tilt="1.09" title="" skinid="ht_node" target="" id="Point01" pan="-0.5"/>
+      <hotspot url="http://www.roundviewtours.com/" description="Created by Round View Tours &amp; Development&#xa;Copyright 2017" tilt="-30.45" title="" skinid="ht_url" target="_blank" id="Point02" pan="55.34"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="0" enabled="0" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomout="0"/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedkeyboard="0" speedwheel="1" lockedwheel="0" lockedmouse="0" hideabout="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboardzoom="0" contextfullscreen="0" simulatemass="1" rubberband="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
   </panorama>
-  <panorama id="node2">
-    <input overlap="1" leveltilesize="510" levelingroll="0" levelingpitch="4.2" height="1344" width="1344" levelbias="0.400" levelbiashidpi="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level predecode="0" height="1344" width="1344" preload="0"/>
-      <level predecode="0" height="672" width="672" preload="0"/>
-      <level predecode="1" height="336" width="336" preload="1"/>
+  <panorama hideabout="1" id="node2">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="1.39395" levelingroll="7.29112e-304" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="135" fovmode="0">
-      <start tilt="-3.32854" fov="70" pan="-11.8066" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+    <view fovmode="0" pannorth="135">
+      <start tilt="1.85047" fov="102.551" projection="4" pan="-13.231"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
       <min tilt="-90" fov="5" pan="0"/>
-      <max tilt="90" fov="120" fovfisheye="360" pan="360" fovstereographic="270" scaletofit="1"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
     </view>
-    <userdata description="" comment="" customnodeid="" longitude="-81.584656" copyright="" title="" info="" latitude="27.898256" source="" datetime="7/14/2017 12:42 PM" author="" tags="lw train depot"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" borderalpha="1" wordwrap="1" height="20" textalpha="1" width="180" border="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundalpha="1" borderradius="1"/>
-      <polystyle borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627"/>
-      <hotspot tilt="5.25" description="" target="" id="Point01" title="R0010024_20170714124326" url="{node3}" pan="-4.05" skinid="ht_node"/>
-      <hotspot tilt="0" description="" target="8.00603/0/70" id="Point02" title="R0010021_20170714124121" url="{node1}" pan="40.538" skinid="ht_node"/>
+    <userdata description="" tags="lw train depot" latitude="27.898256" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:42 PM" longitude="-81.584656"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node4}" description="" tilt="2.4" title="" skinid="ht_node" target="" id="Point01" pan="-13.45"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="0" enabled="0" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomout="0"/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedkeyboard="0" speedwheel="1" lockedwheel="0" lockedmouse="0" hideabout="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboardzoom="0" contextfullscreen="0" simulatemass="1" rubberband="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
   </panorama>
-  <panorama id="node3">
-    <input overlap="1" leveltilesize="510" levelingroll="-0.4" levelingpitch="3.4" height="1344" width="1344" levelbias="0.400" levelbiashidpi="0.400" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level predecode="0" height="1344" width="1344" preload="0"/>
-      <level predecode="0" height="672" width="672" preload="0"/>
-      <level predecode="1" height="336" width="336" preload="1"/>
+  <panorama hideabout="1" id="node4">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="6.18217" levelingroll="-0.714709" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="135" fovmode="0">
-      <start tilt="-2.95595" fov="70" pan="22.8047" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+    <view fovmode="0" pannorth="135">
+      <start tilt="0" fov="70" projection="4" pan="-10.0609"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
       <min tilt="-90" fov="5" pan="0"/>
-      <max tilt="90" fov="120" fovfisheye="360" pan="360" fovstereographic="270" scaletofit="1"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
     </view>
-    <userdata description="" comment="" customnodeid="" longitude="-81.584533" copyright="" title="" info="" latitude="27.898153" source="" datetime="7/14/2017 12:43 PM" author="" tags="lw train depot"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" borderalpha="1" wordwrap="1" height="20" textalpha="1" width="180" border="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundalpha="1" borderradius="1"/>
-      <polystyle borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627"/>
-      <hotspot tilt="0" description="" target="40.538/0/70" id="Point02" title="R0010022_20170714124202" url="{node2}" pan="181.544" skinid="ht_node"/>
-      <hotspot tilt="0.03" description="" target="" id="Point01" title="R0010026_20170714124427" url="{node4}" pan="23.53" skinid="ht_node"/>
+    <userdata description="" tags="lw train depot" latitude="27.898272" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:42 PM" longitude="-81.584578"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node5}" description="" tilt="0.18" title="" skinid="ht_node" target="" id="Point01" pan="-10.18"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="0" enabled="0" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomout="0"/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedkeyboard="0" speedwheel="1" lockedwheel="0" lockedmouse="0" hideabout="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboardzoom="0" contextfullscreen="0" simulatemass="1" rubberband="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
   </panorama>
-  <panorama id="node4">
-    <input overlap="1" leveltilesize="510" levelingroll="-0.4" levelingpitch="2.8" height="1344" width="1344" levelbias="0.400" levelbiashidpi="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
-      <level predecode="0" height="1344" width="1344" preload="0"/>
-      <level predecode="0" height="672" width="672" preload="0"/>
-      <level predecode="1" height="336" width="336" preload="1"/>
+  <panorama hideabout="1" id="node5">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="5.77712" levelingroll="-0.560492" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
       <preview color="0x808080" strip="1"/>
     </input>
-    <view pannorth="157.5" fovmode="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
+    <view fovmode="0" pannorth="135">
+      <start tilt="0.0606292" fov="70" projection="4" pan="18.7365"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
       <min tilt="-90" fov="5" pan="0"/>
-      <max tilt="90" fov="120" fovfisheye="360" pan="360" fovstereographic="270" scaletofit="1"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
     </view>
-    <userdata description="" comment="" customnodeid="" longitude="-81.584547" copyright="" title="" info="" latitude="27.898219" source="" datetime="7/14/2017 12:44 PM" author="" tags="lw train depot"/>
-    <hotspots wordwrap="1" height="20" width="180">
-      <label background="1" borderalpha="1" wordwrap="1" height="20" textalpha="1" width="180" border="1" backgroundcolor="0xffffff" enabled="1" textcolor="0x000000" bordercolor="0x000000" backgroundalpha="1" borderradius="1"/>
-      <polystyle borderalpha="1" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" mode="0" backgroundalpha="0.2509803921568627"/>
+    <userdata description="" tags="lw train depot" latitude="27.898153" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:43 PM" longitude="-81.584533"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node6}" description="" tilt="-0.12" title="" skinid="ht_node" target="" id="Point01" pan="18.86"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="0" enabled="0" zoomspeed="2" type="crossdissolve" zoomfov="20" zoomout="0"/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
     <animation syncanimationwithvideo="0" useinautorotation="0"/>
-    <control lockedkeyboard="0" speedwheel="1" lockedwheel="0" lockedmouse="0" hideabout="0" dblclickfullscreen="0" invertcontrol="1" contextprojections="0" sensitivity="8" invertwheel="0" lockedkeyboardzoom="0" contextfullscreen="0" simulatemass="1" rubberband="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node6">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3" levelingroll="-0.3" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="90">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898217" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:43 PM" longitude="-81.584547"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node7}" description="" tilt="0.06" title="" skinid="ht_node" target="" id="Point01" pan="0.25"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node7">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="2.8" levelingroll="-0.4" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="157.5">
+      <start tilt="0.240111" fov="70" projection="4" pan="5.27027"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898219" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:44 PM" longitude="-81.584547"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node8}" description="" tilt="0.3" title="" skinid="ht_node" target="" id="Point01" pan="5.52"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node8">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3.4" levelingroll="0.1" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="157.5">
+      <start tilt="-0.610668" fov="70" projection="4" pan="33.6732"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898257412046203" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:45 PM" longitude="-81.58453832009889"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node9}" description="" tilt="-0.67" title="" skinid="ht_node" target="" id="Point01" pan="33.8"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node9">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3.5" levelingroll="-0.4" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="112.5">
+      <start tilt="-0.391659" fov="70" projection="4" pan="-17.9082"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898219" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:45 PM" longitude="-81.584544"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node10}" description="" tilt="-0.21" title="" skinid="ht_node" target="" id="Point01" pan="-17.91"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node10">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3.1" levelingroll="0.3" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="157.5">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898217" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:46 PM" longitude="-81.584544"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node11}" description="" tilt="0.06" title="" skinid="ht_node" target="" id="Point01" pan="0.37"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node11">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3" levelingroll="-0.3" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="135">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898214" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:46 PM" longitude="-81.584544"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node12}" description="" tilt="-0.06" title="" skinid="ht_node" target="" id="Point01" pan="0.37"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node12">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3.4" levelingroll="0" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="135">
+      <start tilt="-1.72108" fov="70" projection="4" pan="12.8043"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898137488213724" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:46 PM" longitude="-81.58457002083207"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node13}" description="" tilt="-1.66" title="" skinid="ht_node" target="" id="Point01" pan="13.17"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node13">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="1.84925" levelingroll="0.925289" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="157.5">
+      <start tilt="-1.38369" fov="70" projection="4" pan="-15.1396"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898144" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:47 PM" longitude="-81.584525"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node14}" description="" tilt="-1.47" title="" skinid="ht_node" target="" id="Point01" pan="-14.78"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node14">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3.5" levelingroll="0.3" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="247.5">
+      <start tilt="-0.847228" fov="70" projection="4" pan="-43.1703"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898144" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:47 PM" longitude="-81.584525"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node15}" description="" tilt="-0.88" title="" skinid="ht_node" target="" id="Point01" pan="-43"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node15">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3.1" levelingroll="-0.2" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="315">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898144" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:48 PM" longitude="-81.584525"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node16}" description="" tilt="-0.06" title="" skinid="ht_node" target="" id="Point01" pan="-0.12"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node16">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3.2" levelingroll="-0.3" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="270">
+      <start tilt="0.155162" fov="70" projection="4" pan="37.057"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898142" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:48 PM" longitude="-81.584525"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node17}" description="" tilt="-0.12" title="" skinid="ht_node" target="" id="Point01" pan="36.93"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node17">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3.9" levelingroll="-0.3" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="180">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898142" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:49 PM" longitude="-81.584508"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node18}" description="" tilt="0.06" title="" skinid="ht_node" target="" id="Point01" pan="0.12"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node18">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3.3" levelingroll="-0.2" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="135">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898142" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:49 PM" longitude="-81.584508"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node19}" description="" tilt="-0.43" title="" skinid="ht_node" target="" id="Point01" pan="0.37"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node19">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="2.3" levelingroll="0" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="157.5">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898142" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:49 PM" longitude="-81.584508"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node20}" description="" tilt="-0.06" title="" skinid="ht_node" target="" id="Point01" pan="0.12"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node20">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="3" levelingroll="0.5" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="135">
+      <start tilt="0" fov="70" projection="4" pan="0"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.898072" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:50 PM" longitude="-81.584492"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node21}" description="" tilt="-0.18" title="" skinid="ht_node" target="" id="Point01" pan="0.49"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
+  </panorama>
+  <panorama hideabout="1" id="node21">
+    <input levelbias="0.400" width="1344" leveltilesize="510" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0.567727" levelingroll="1.4078" height="1344" overlap="1" levelbiashidpi="0.400">
+      <level width="1344" height="1344" preload="0" predecode="0"/>
+      <level width="672" height="672" preload="0" predecode="0"/>
+      <level width="336" height="336" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="135">
+      <start tilt="0" fov="70" projection="4" pan="32.3863"/>
+      <flyin tilt="-90" fov="170" projection="9" pan="0"/>
+      <min tilt="-90" fov="5" pan="0"/>
+      <max fovfisheye="360" fovstereographic="270" tilt="90" fov="120" scaletofit="1" pan="360"/>
+    </view>
+    <userdata description="" tags="lw train depot" latitude="27.89800040976918" title="" source="" comment="" info="" customnodeid="" copyright="" author="" datetime="7/14/2017 12:50 PM" longitude="-81.58450853372949"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" textalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" height="20" backgroundcolor="0xffffff" backgroundalpha="1" borderalpha="1" wordwrap="1" borderradius="1" enabled="1" border="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot url="{node1}" description="To Slide 1" tilt="1.69" title="Lake Wales Train Depot Museum" skinid="ht_node" target="" id="Point01" pan="33.26"/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2" enabled="0" zoomin="0" zoomout="0" blendcolor="0x000000"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control hideabout="1" lockedmouse="0" speedwheel="1" simulatemass="1" contextfullscreen="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" rubberband="0" lockedkeyboard="0" lockedwheel="0" invertwheel="0" dblclickfullscreen="1" invertcontrol="1"/>
   </panorama>
 </tour>
