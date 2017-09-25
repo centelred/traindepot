@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="15974" start="node17" appversion="5.2.1">
+<tour appversion="5.2.2" start="node17" apprev="15983">
   <panorama id="node17" hideabout="1">
-    <input width="1344" levelbiashidpi="0.400" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingroll="2.1" leveltilesize="510" levelbias="0.400" levelingpitch="4.1" overlap="1">
-      <level width="1344" height="1344" preload="0" predecode="0"/>
-      <level width="672" height="672" preload="0" predecode="0"/>
-      <level width="336" height="336" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" levelingpitch="4.1" overlap="1" levelbiashidpi="0.400" height="1344" leveltilesize="510" width="1344" levelingroll="2.1" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1344" predecode="0" preload="0" width="1344"/>
+      <level height="672" predecode="0" preload="0" width="672"/>
+      <level height="336" predecode="1" preload="1" width="336"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="153">
-      <start fov="96.7" pan="-5.26" projection="4" tilt="7.83"/>
-      <flyin fov="170" pan="0" projection="12" tilt="-90"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view pannorth="153" fovmode="0">
+      <start projection="4" pan="-5.26" fov="96.7" tilt="7.83"/>
+      <flyin projection="12" pan="0" fov="170" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90"/>
     </view>
-    <userdata info="325 S. Scenic Highway Lake Wales Florida 33853" tags="traintour" longitude="-81.58446800000002" latitude="27.89802980000000" copyright="2017" customnodeid="" comment="" description="Atlantic Coast Line Railroad Depot  Lake Wales, Florida 33853" datetime="8/29/2017 9:22 AM" author="Round View Tours &amp; Development" title="Atlantic Coast Line Railroad Depot" source="Round View Tours &amp; Development"/>
-    <hotspots width="190" height="0" wordwrap="1">
-      <label bordercolor="0x000000" border="1" width="190" textalpha="1" enabled="1" borderalpha="1" background="1" backgroundalpha="1" height="0" borderradius="1" wordwrap="1" textcolor="0xffffff" backgroundcolor="0x191919"/>
-      <polystyle mode="0" bordercolor="0x34302f" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="0" backgroundcolor="0xffffff"/>
-      <polyhotspot id="Poly01" target="_blank" url="http://www.cityoflakewales.com/" description="" title="">
+    <userdata source="Round View Tours &amp; Development" longitude="-81.58446800000002" datetime="8/29/2017 9:22 AM" tags="traintour" description="Atlantic Coast Line Railroad Depot  Lake Wales, Florida 33853" comment="" latitude="27.89802980000000" title="Atlantic Coast Line Railroad Depot" copyright="2017" author="Round View Tours &amp; Development" info="325 S. Scenic Highway Lake Wales Florida 33853" customnodeid=""/>
+    <hotspots wordwrap="1" height="0" width="190">
+      <label borderalpha="1" wordwrap="1" enabled="1" textcolor="0xffffff" border="1" height="0" backgroundcolor="0x191919" bordercolor="0x000000" width="190" borderradius="1" background="1" textalpha="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="0" mode="0" backgroundcolor="0xffffff" bordercolor="0x34302f" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="" url="http://www.cityoflakewales.com/">
         <vertex pan="-132.3" tilt="-65.03"/>
         <vertex pan="-50" tilt="-66.4"/>
         <vertex pan="51.9" tilt="-65.52"/>
         <vertex pan="134.64" tilt="-65.45"/>
       </polyhotspot>
-      <hotspot id="Point01" target="" pan="-0.47" skinid="ht_node" url="{node2}" description="" tilt="2.51" title="The Great Beginning"/>
-      <polyhotspot id="Poly01" target="_blank" url="https://www.google.com/maps/place/Lake+Wales+Depot+Museum/@27.8980298,-81.5866566,17z/data=!3m1!4b1!4m5!3m4!1s0x88dd08de5f969301:0xe3f6e3fb5fe0d35b!8m2!3d27.8980298!4d-81.5844679" description="" title="Location">
+      <hotspot id="Point01" skinid="ht_node" description="" target="" title="The Great Beginning" pan="-3.95" tilt="7.01" url="{node2}"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="Location" url="https://www.google.com/maps/place/Lake+Wales+Depot+Museum/@27.8980298,-81.5866566,17z/data=!3m1!4b1!4m5!3m4!1s0x88dd08de5f969301:0xe3f6e3fb5fe0d35b!8m2!3d27.8980298!4d-81.5844679">
         <vertex pan="-18.62" tilt="22.98"/>
         <vertex pan="10.97" tilt="23.1"/>
         <vertex pan="11.03" tilt="20.45"/>
         <vertex pan="-18.59" tilt="20.31"/>
       </polyhotspot>
-      <polyhotspot id="Poly02" target="_blank" url="http://www.cityoflakewales.com/439/Depot-Museum" description="" title="Museum Website">
+      <polyhotspot id="Poly02" description="" target="_blank" title="Museum Website" url="http://www.cityoflakewales.com/439/Depot-Museum">
         <vertex pan="34.2" tilt="-15.28"/>
         <vertex pan="20.06" tilt="-14.8"/>
         <vertex pan="21.5" tilt="-6.7"/>
@@ -38,75 +38,79 @@
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition type="irisrectangular" enabled="1" zoomfov="20" softedge="10" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <transition zoomfov="20" enabled="1" zoomspeed="2" type="irisrectangular" softedge="10" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
     <flyintransition enabled="1" speed="1.01"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" simulatemass="1" contextprojections="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" rubberband="0" lockedkeyboard="0" lockedwheel="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="1" hideabout="1">
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" dblclickfullscreen="0" invertcontrol="1" hideabout="1" rubberband="0" contextfullscreen="1" lockedkeyboard="0" contextprojections="1" invertwheel="0" lockedkeyboardzoom="1" speedwheel="1" sensitivity="8" lockedmouse="0" lockedwheel="1">
       <menulink text="Round View Tours &amp; Development" url="http://www.roundviewtours.com"/>
     </control>
   </panorama>
   <panorama id="node2" hideabout="1">
-    <input width="1344" levelbiashidpi="0.400" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingroll="2.12523" leveltilesize="510" levelbias="0.400" levelingpitch="1.34152" overlap="1">
-      <level width="1344" height="1344" preload="0" predecode="0"/>
-      <level width="672" height="672" preload="0" predecode="0"/>
-      <level width="336" height="336" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" levelingpitch="1.34152" overlap="1" levelbiashidpi="0.400" height="1344" leveltilesize="510" width="1344" levelingroll="2.12523" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1344" predecode="0" preload="0" width="1344"/>
+      <level height="672" predecode="0" preload="0" width="672"/>
+      <level height="336" predecode="1" preload="1" width="336"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="247.5">
-      <start fov="96.6911" pan="0.21494" projection="4" tilt="0"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view pannorth="247.5" fovmode="0">
+      <start projection="4" pan="0.21494" fov="96.6911" tilt="0"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90"/>
     </view>
-    <userdata info="325 S. Scenic Highway Lake Wales Florida 33853" tags="traintour" longitude="" latitude="" copyright="2017" customnodeid="" comment="" description="Lake Wales Train Depot Museum" datetime="8/29/2017 9:12 AM" author="Round View Tours &amp; Development" title="The Great Beginning" source="Round View Tours &amp; Development"/>
-    <hotspots width="190" height="0" wordwrap="1">
-      <label bordercolor="0x000000" border="1" width="190" textalpha="1" enabled="1" borderalpha="1" background="1" backgroundalpha="1" height="0" borderradius="1" wordwrap="1" textcolor="0xffffff" backgroundcolor="0x191919"/>
-      <polystyle mode="0" bordercolor="0x34302f" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="0" backgroundcolor="0xffffff"/>
-      <polyhotspot id="Poly01" target="_blank" url="http://www.cityoflakewales.com/" description="" title="">
+    <userdata source="Round View Tours &amp; Development" longitude="" datetime="8/29/2017 9:12 AM" tags="traintour" description="Lake Wales Train Depot Museum" comment="" latitude="" title="The Great Beginning" copyright="2017" author="Round View Tours &amp; Development" info="325 S. Scenic Highway Lake Wales Florida 33853" customnodeid=""/>
+    <hotspots wordwrap="1" height="0" width="190">
+      <label borderalpha="1" wordwrap="1" enabled="1" textcolor="0xffffff" border="1" height="0" backgroundcolor="0x191919" bordercolor="0x000000" width="190" borderradius="1" background="1" textalpha="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="0" mode="0" backgroundcolor="0xffffff" bordercolor="0x34302f" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="" url="http://www.cityoflakewales.com/">
         <vertex pan="-132.3" tilt="-65.03"/>
         <vertex pan="-50" tilt="-66.4"/>
         <vertex pan="51.9" tilt="-65.52"/>
         <vertex pan="134.64" tilt="-65.45"/>
       </polyhotspot>
-      <hotspot id="Point01" target="" pan="-113.85" skinid="ht_node" url="{node17}" description="" tilt="-5.97" title="Atlantic Coast Line Railroad Depot"/>
-      <hotspot id="Point02" target="" pan="118.68" skinid="ht_node" url="{node4}" description="" tilt="-9.32" title="Full steam ahead!"/>
-      <hotspot id="Point03" target="" pan="53.62" skinid="ht_image" url="images/census.jpg" description="" tilt="12.04" title="Census Info"/>
-      <hotspot id="Point04" target="" pan="-61.64" skinid="ht_info" url="" description="In 1881, Hamilton Disston set a world record purchase, for 4 million acres of land.  Land of which, eventually became what we know as Florida.  Hamilton Disston was an industrialist, and a real estate developer, that made the right investments to spur the growth of Florida. " tilt="14.93" title="Hamilton Disston"/>
+      <hotspot id="Point01" skinid="ht_node" description="" target="" title="Atlantic Coast Line Railroad Depot" pan="-106.42" tilt="-1.9" url="{node17}"/>
+      <hotspot id="Point02" skinid="ht_node" description="" target="" title="Full steam ahead!" pan="112.69" tilt="-13.83" url="{node4}"/>
+      <hotspot id="Point03" skinid="ht_image" description="This is a table showing the growth in Lake Wales, Florida since it has been inhabited." target="" title="Census Info" pan="53.31" tilt="12.08" url="images/census.jpg"/>
+      <hotspot id="Point04" skinid="ht_info" description="&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/en/thumb/c/cb/Hamilton_Disston.jpg/237px-Hamilton_Disston.jpg&quot; width=&quot;100%&quot;>&#xa;In 1881, Hamilton Disston set a world record purchase, for 4 million acres of land.  Land of which, eventually became what we know as Florida.  Hamilton Disston was an industrialist, and a real estate developer, that made the right investments to spur the growth of Florida. " target="" title="Hamilton Disston" pan="-61.64" tilt="14.93" url=""/>
+      <hotspot id="Point05" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/Surveyor%20Transit.JPG?raw=true&quot; width=&quot;100%&quot;>&#xa;&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/Surveyor%20transit%202.JPG?raw=true&quot; width=&quot;100%&quot;>&#xa;&#xa;&#xa;This is a surveyor’s transit which would be used for measuring horizontal and vertical angles. It is important when surveying land when roads and railroads would be planned to create the most efficient route at minimum expense. In 1911, Allen Carlton Nydeggar was employed by the Lake Wales Land Company to survey and plat the town’s 5,000 acres. As a civil engineer, he designed the town to include areas for businesses, homes, and parks.&#xa;&#xa;" target="" title="Surveyor's Transit" pan="-42.85" tilt="-12.81" url=""/>
+      <hotspot id="Point06" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/LEoLW1.JPG?raw=true&quot; width=&quot;100%&quot;>&#xa;&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/LEoLW2.JPG?raw=true&quot; width=&quot;100%&quot;>&#xa;&#xa;&#xa;“The Little Estates of Lake Wales Florida” was a brochure produced by the Lake Wales Land Company to market the town towards northerners thinking of moving south. The brochure highlights all the construction being done in town, the beautiful scenery, mild winters, and other attractive features. The brochures would often be sent and reproduced in northern newspapers. " target="" title="Little Estates of Lake Wales" pan="7.02" tilt="-24.48" url=""/>
     </hotspots>
     <media/>
-    <transition type="irisrectangular" enabled="1" zoomfov="20" softedge="10" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <transition zoomfov="20" enabled="1" zoomspeed="2" type="irisrectangular" softedge="10" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
     <flyintransition enabled="1" speed="1.01"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" simulatemass="1" contextprojections="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" rubberband="0" lockedkeyboard="0" lockedwheel="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="1" hideabout="1">
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" dblclickfullscreen="0" invertcontrol="1" hideabout="1" rubberband="0" contextfullscreen="1" lockedkeyboard="0" contextprojections="1" invertwheel="0" lockedkeyboardzoom="1" speedwheel="1" sensitivity="8" lockedmouse="0" lockedwheel="1">
       <menulink text="Round View Tours &amp; Development" url="http://www.roundviewtours.com"/>
     </control>
   </panorama>
   <panorama id="node4" hideabout="1">
-    <input width="1344" levelbiashidpi="0.400" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingroll="1" leveltilesize="510" levelbias="0.400" levelingpitch="1.7" overlap="1">
-      <level width="1344" height="1344" preload="0" predecode="0"/>
-      <level width="672" height="672" preload="0" predecode="0"/>
-      <level width="336" height="336" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" levelingpitch="1.7" overlap="1" levelbiashidpi="0.400" height="1344" leveltilesize="510" width="1344" levelingroll="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1344" predecode="0" preload="0" width="1344"/>
+      <level height="672" predecode="0" preload="0" width="672"/>
+      <level height="336" predecode="1" preload="1" width="336"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="45">
-      <start fov="96.6911" pan="4.14051" projection="4" tilt="-3.20774"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view pannorth="45" fovmode="0">
+      <start projection="4" pan="4.14051" fov="96.6911" tilt="-3.20774"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90"/>
     </view>
-    <userdata info="325 S. Scenic Highway Lake Wales Florida 33853" tags="traintour" longitude="" latitude="" copyright="2017" customnodeid="" comment="" description="Lake Wales Train Depot Museum" datetime="8/29/2017 9:14 AM" author="Round View Tours &amp; Development" title="Full steam ahead!" source="Round View Tours &amp; Development"/>
-    <hotspots width="190" height="0" wordwrap="1">
-      <label bordercolor="0x000000" border="1" width="190" textalpha="1" enabled="1" borderalpha="1" background="1" backgroundalpha="1" height="0" borderradius="1" wordwrap="1" textcolor="0xffffff" backgroundcolor="0x191919"/>
-      <polystyle mode="0" bordercolor="0x34302f" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="0" backgroundcolor="0xffffff"/>
-      <polyhotspot id="Poly01" target="_blank" url="http://www.cityoflakewales.com/" description="" title="">
+    <userdata source="Round View Tours &amp; Development" longitude="" datetime="8/29/2017 9:14 AM" tags="traintour" description="Lake Wales Train Depot Museum" comment="" latitude="" title="Full steam ahead!" copyright="2017" author="Round View Tours &amp; Development" info="325 S. Scenic Highway Lake Wales Florida 33853" customnodeid=""/>
+    <hotspots wordwrap="1" height="0" width="190">
+      <label borderalpha="1" wordwrap="1" enabled="1" textcolor="0xffffff" border="1" height="0" backgroundcolor="0x191919" bordercolor="0x000000" width="190" borderradius="1" background="1" textalpha="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="0" mode="0" backgroundcolor="0xffffff" bordercolor="0x34302f" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="" url="http://www.cityoflakewales.com/">
         <vertex pan="-132.3" tilt="-65.03"/>
         <vertex pan="-50" tilt="-66.4"/>
         <vertex pan="51.9" tilt="-65.52"/>
         <vertex pan="134.64" tilt="-65.45"/>
       </polyhotspot>
-      <hotspot id="Point01" target="" pan="92.79" skinid="ht_node" url="{node2}" description="" tilt="-10.72" title="The Great Beginning"/>
-      <hotspot id="Point02" target="" pan="179.26" skinid="ht_node" url="{node5}" description="" tilt="-11.87" title="Progress"/>
-      <polyhotspot id="Poly01" target="_blank" url="https://en.wikipedia.org/wiki/Seaboard_Coast_Line_Railroad" description="" title="Wiki">
+      <hotspot id="Point01" skinid="ht_node" description="" target="" title="The Great Beginning" pan="95.37" tilt="-4.54" url="{node2}"/>
+      <hotspot id="Point02" skinid="ht_node" description="" target="" title="Progress" pan="-160.96" tilt="-10.19" url="{node5}"/>
+      <hotspot id="Point03" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/Stamps1.JPG?raw=true&quot; width=&quot;100%&quot; style=&quot;align:center&quot;>&#xa;&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/stamps2.jpeg?raw=true&quot; width=&quot;100%&quot; style=&quot;align:center&quot;>&#xa;&#xa;&#xa;This collection of stamps belonged to the station master of the Lake Wales Atlantic Coast Line Train Station. As passengers embarked or disembarked, along with cargo, their paperwork or tickets would get stamped by the station master. This collection of stamps includes nearby stations including Mountain Lake Corporation, Hunt Brothers Packing House, Lake Wales Citrus Growers, and other local prominent businesses who used the rails. " target="" title="Stamp Collection" pan="19.81" tilt="-23.25" url=""/>
+      <hotspot id="Point04" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/RRlantern1.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&#xa;Railroad lanterns were used by railroad workers to signal and coordinates with trains. By using lanterns with different colored lenses or swinging the lanterns in different ways, trains could be told to go, stop, slow down, skip past stations, or other actions. Lanterns were popular as they were easy to see, portable, didn’t require sound (rail yards were very noisy), and also provided heat.&#xa;" target="" title="Railroad Lantern" pan="0.5" tilt="-3.67" url=""/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="Wiki" url="https://en.wikipedia.org/wiki/Seaboard_Coast_Line_Railroad">
         <vertex pan="-29.67" tilt="-9.58"/>
         <vertex pan="-32.65" tilt="-8.39"/>
         <vertex pan="-34.09" tilt="-6.44"/>
@@ -122,7 +126,7 @@
         <vertex pan="-23.81" tilt="-7.45"/>
         <vertex pan="-26.14" tilt="-9.05"/>
       </polyhotspot>
-      <polyhotspot id="Poly02" target="_blank" url="https://en.wikipedia.org/wiki/Atlantic_Coast_Line_Railroad" description="" title="Wiki">
+      <polyhotspot id="Poly02" description="" target="_blank" title="Wiki" url="https://en.wikipedia.org/wiki/Atlantic_Coast_Line_Railroad">
         <vertex pan="25.87" tilt="-6.68"/>
         <vertex pan="28.29" tilt="-7.6"/>
         <vertex pan="30" tilt="-9.6"/>
@@ -141,108 +145,111 @@
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition type="irisrectangular" enabled="1" zoomfov="20" softedge="10" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <transition zoomfov="20" enabled="1" zoomspeed="2" type="irisrectangular" softedge="10" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
     <flyintransition enabled="1" speed="1.01"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" simulatemass="1" contextprojections="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" rubberband="0" lockedkeyboard="0" lockedwheel="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="1" hideabout="1">
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" dblclickfullscreen="0" invertcontrol="1" hideabout="1" rubberband="0" contextfullscreen="1" lockedkeyboard="0" contextprojections="1" invertwheel="0" lockedkeyboardzoom="1" speedwheel="1" sensitivity="8" lockedmouse="0" lockedwheel="1">
       <menulink text="Round View Tours &amp; Development" url="http://www.roundviewtours.com"/>
     </control>
   </panorama>
   <panorama id="node5" hideabout="1">
-    <input width="1344" levelbiashidpi="0.400" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingroll="0.7" leveltilesize="510" levelbias="0.400" levelingpitch="1.8" overlap="1">
-      <level width="1344" height="1344" preload="0" predecode="0"/>
-      <level width="672" height="672" preload="0" predecode="0"/>
-      <level width="336" height="336" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" levelingpitch="1.8" overlap="1" levelbiashidpi="0.400" height="1344" leveltilesize="510" width="1344" levelingroll="0.7" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1344" predecode="0" preload="0" width="1344"/>
+      <level height="672" predecode="0" preload="0" width="672"/>
+      <level height="336" predecode="1" preload="1" width="336"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="247.5">
-      <start fov="96.6911" pan="21.9756" projection="4" tilt="-9.53054"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view pannorth="247.5" fovmode="0">
+      <start projection="4" pan="21.9756" fov="96.6911" tilt="-9.53054"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90"/>
     </view>
-    <userdata info="325 S. Scenic Highway Lake Wales Florida 33853" tags="traintour" longitude="" latitude="" copyright="2017" customnodeid="" comment="" description="Lake Wales Train Depot Museum" datetime="8/29/2017 9:14 AM" author="Round View Tours &amp; Development" title="Progress" source="Round View Tours &amp; Development"/>
-    <hotspots width="190" height="0" wordwrap="1">
-      <label bordercolor="0x000000" border="1" width="190" textalpha="1" enabled="1" borderalpha="1" background="1" backgroundalpha="1" height="0" borderradius="1" wordwrap="1" textcolor="0xffffff" backgroundcolor="0x191919"/>
-      <polystyle mode="0" bordercolor="0x34302f" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="0" backgroundcolor="0xffffff"/>
-      <polyhotspot id="Poly01" target="_blank" url="http://www.cityoflakewales.com/" description="" title="">
+    <userdata source="Round View Tours &amp; Development" longitude="" datetime="8/29/2017 9:14 AM" tags="traintour" description="Lake Wales Train Depot Museum" comment="" latitude="" title="Progress" copyright="2017" author="Round View Tours &amp; Development" info="325 S. Scenic Highway Lake Wales Florida 33853" customnodeid=""/>
+    <hotspots wordwrap="1" height="0" width="190">
+      <label borderalpha="1" wordwrap="1" enabled="1" textcolor="0xffffff" border="1" height="0" backgroundcolor="0x191919" bordercolor="0x000000" width="190" borderradius="1" background="1" textalpha="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="0" mode="0" backgroundcolor="0xffffff" bordercolor="0x34302f" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="" url="http://www.cityoflakewales.com/">
         <vertex pan="-132.3" tilt="-65.03"/>
         <vertex pan="-50" tilt="-66.4"/>
         <vertex pan="51.9" tilt="-65.52"/>
         <vertex pan="134.64" tilt="-65.45"/>
       </polyhotspot>
-      <hotspot id="Point01" target="" pan="171.57" skinid="ht_node" url="{node4}" description="" tilt="-12.83" title="Full steam ahead!"/>
-      <hotspot id="Point02" target="" pan="105.31" skinid="ht_node" url="{node6}" description="" tilt="-19.14" title="The first schools"/>
+      <hotspot id="Point01" skinid="ht_node" description="" target="" title="Full steam ahead!" pan="174.07" tilt="-3.19" url="{node4}"/>
+      <hotspot id="Point02" skinid="ht_node" description="" target="" title="The first schools" pan="89.19" tilt="-7.57" url="{node6}"/>
     </hotspots>
     <media/>
-    <transition type="irisrectangular" enabled="1" zoomfov="20" softedge="10" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <transition zoomfov="20" enabled="1" zoomspeed="2" type="irisrectangular" softedge="10" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
     <flyintransition enabled="1" speed="1.01"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" simulatemass="1" contextprojections="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" rubberband="0" lockedkeyboard="0" lockedwheel="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="1" hideabout="1">
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" dblclickfullscreen="0" invertcontrol="1" hideabout="1" rubberband="0" contextfullscreen="1" lockedkeyboard="0" contextprojections="1" invertwheel="0" lockedkeyboardzoom="1" speedwheel="1" sensitivity="8" lockedmouse="0" lockedwheel="1">
       <menulink text="Round View Tours &amp; Development" url="http://www.roundviewtours.com"/>
     </control>
   </panorama>
   <panorama id="node6" hideabout="1">
-    <input width="1344" levelbiashidpi="0.400" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingroll="0.9" leveltilesize="510" levelbias="0.400" levelingpitch="1.8" overlap="1">
-      <level width="1344" height="1344" preload="0" predecode="0"/>
-      <level width="672" height="672" preload="0" predecode="0"/>
-      <level width="336" height="336" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" levelingpitch="1.8" overlap="1" levelbiashidpi="0.400" height="1344" leveltilesize="510" width="1344" levelingroll="0.9" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1344" predecode="0" preload="0" width="1344"/>
+      <level height="672" predecode="0" preload="0" width="672"/>
+      <level height="336" predecode="1" preload="1" width="336"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="135">
-      <start fov="96.6911" pan="125.438" projection="4" tilt="-5.12102"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view pannorth="135" fovmode="0">
+      <start projection="4" pan="125.438" fov="96.6911" tilt="-5.12102"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90"/>
     </view>
-    <userdata info="325 S. Scenic Highway Lake Wales Florida 33853" tags="traintour" longitude="" latitude="" copyright="2017" customnodeid="" comment="" description="Lake Wales Train Depot Museum" datetime="8/29/2017 9:14 AM" author="Round View Tours &amp; Development" title="The first schools" source="Round View Tours &amp; Development"/>
-    <hotspots width="190" height="0" wordwrap="1">
-      <label bordercolor="0x000000" border="1" width="190" textalpha="1" enabled="1" borderalpha="1" background="1" backgroundalpha="1" height="0" borderradius="1" wordwrap="1" textcolor="0xffffff" backgroundcolor="0x191919"/>
-      <polystyle mode="0" bordercolor="0x34302f" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="0" backgroundcolor="0xffffff"/>
-      <polyhotspot id="Poly01" target="_blank" url="http://www.cityoflakewales.com/" description="" title="">
+    <userdata source="Round View Tours &amp; Development" longitude="" datetime="8/29/2017 9:14 AM" tags="traintour" description="Lake Wales Train Depot Museum" comment="" latitude="" title="The first schools" copyright="2017" author="Round View Tours &amp; Development" info="325 S. Scenic Highway Lake Wales Florida 33853" customnodeid=""/>
+    <hotspots wordwrap="1" height="0" width="190">
+      <label borderalpha="1" wordwrap="1" enabled="1" textcolor="0xffffff" border="1" height="0" backgroundcolor="0x191919" bordercolor="0x000000" width="190" borderradius="1" background="1" textalpha="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="0" mode="0" backgroundcolor="0xffffff" bordercolor="0x34302f" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="" url="http://www.cityoflakewales.com/">
         <vertex pan="-132.3" tilt="-65.03"/>
         <vertex pan="-50" tilt="-66.4"/>
         <vertex pan="51.9" tilt="-65.52"/>
         <vertex pan="134.64" tilt="-65.45"/>
       </polyhotspot>
-      <hotspot id="Point01" target="" pan="-168.49" skinid="ht_node" url="{node5}" description="" tilt="-10.88" title="Progress"/>
-      <hotspot id="Point02" target="" pan="-7.74" skinid="ht_node" url="{node7}" description="" tilt="-5.26" title="Bok Tower Gardens"/>
+      <hotspot id="Point01" skinid="ht_node" description="" target="" title="Progress" pan="-150.31" tilt="-5.52" url="{node5}"/>
+      <hotspot id="Point02" skinid="ht_node" description="" target="" title="Bok Tower Gardens" pan="-7.74" tilt="-5.26" url="{node7}"/>
     </hotspots>
     <media/>
-    <transition type="irisrectangular" enabled="1" zoomfov="20" softedge="10" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <transition zoomfov="20" enabled="1" zoomspeed="2" type="irisrectangular" softedge="10" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
     <flyintransition enabled="1" speed="1.01"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" simulatemass="1" contextprojections="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" rubberband="0" lockedkeyboard="0" lockedwheel="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="1" hideabout="1">
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" dblclickfullscreen="0" invertcontrol="1" hideabout="1" rubberband="0" contextfullscreen="1" lockedkeyboard="0" contextprojections="1" invertwheel="0" lockedkeyboardzoom="1" speedwheel="1" sensitivity="8" lockedmouse="0" lockedwheel="1">
       <menulink text="Round View Tours &amp; Development" url="http://www.roundviewtours.com"/>
     </control>
   </panorama>
   <panorama id="node7" hideabout="1">
-    <input width="1344" levelbiashidpi="0.400" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingroll="1" leveltilesize="510" levelbias="0.400" levelingpitch="1.6" overlap="1">
-      <level width="1344" height="1344" preload="0" predecode="0"/>
-      <level width="672" height="672" preload="0" predecode="0"/>
-      <level width="336" height="336" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" levelingpitch="1.6" overlap="1" levelbiashidpi="0.400" height="1344" leveltilesize="510" width="1344" levelingroll="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1344" predecode="0" preload="0" width="1344"/>
+      <level height="672" predecode="0" preload="0" width="672"/>
+      <level height="336" predecode="1" preload="1" width="336"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="247.5">
-      <start fov="96.6911" pan="-51.5783" projection="4" tilt="0.404005"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view pannorth="247.5" fovmode="0">
+      <start projection="4" pan="-51.5783" fov="96.6911" tilt="0.404005"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90"/>
     </view>
-    <userdata info="325 S. Scenic Highway Lake Wales Florida 33853" tags="traintour" longitude="" latitude="" copyright="2017" customnodeid="" comment="" description="Lake Wales Train Depot Museum" datetime="8/29/2017 9:15 AM" author="Round View Tours &amp; Development" title="Bok Tower Gardens" source="Round View Tours &amp; Development"/>
-    <hotspots width="190" height="0" wordwrap="1">
-      <label bordercolor="0x000000" border="1" width="190" textalpha="1" enabled="1" borderalpha="1" background="1" backgroundalpha="1" height="0" borderradius="1" wordwrap="1" textcolor="0xffffff" backgroundcolor="0x191919"/>
-      <polystyle mode="0" bordercolor="0x34302f" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="0" backgroundcolor="0xffffff"/>
-      <polyhotspot id="Poly01" target="_blank" url="http://www.cityoflakewales.com/" description="" title="">
+    <userdata source="Round View Tours &amp; Development" longitude="" datetime="8/29/2017 9:15 AM" tags="traintour" description="Lake Wales Train Depot Museum" comment="" latitude="" title="Bok Tower Gardens" copyright="2017" author="Round View Tours &amp; Development" info="325 S. Scenic Highway Lake Wales Florida 33853" customnodeid=""/>
+    <hotspots wordwrap="1" height="0" width="190">
+      <label borderalpha="1" wordwrap="1" enabled="1" textcolor="0xffffff" border="1" height="0" backgroundcolor="0x191919" bordercolor="0x000000" width="190" borderradius="1" background="1" textalpha="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="0" mode="0" backgroundcolor="0xffffff" bordercolor="0x34302f" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="" url="http://www.cityoflakewales.com/">
         <vertex pan="-132.3" tilt="-65.03"/>
         <vertex pan="-50" tilt="-66.4"/>
         <vertex pan="51.9" tilt="-65.52"/>
         <vertex pan="134.64" tilt="-65.45"/>
       </polyhotspot>
-      <hotspot id="Point01" target="" pan="-98.83" skinid="ht_node" url="{node6}" description="" tilt="-10.22" title="The first schools"/>
-      <hotspot id="Point02" target="" pan="-35.04" skinid="ht_node" url="{node9}" description="" tilt="-8.59" title="Post-war Boom"/>
-      <hotspot id="Point04" target="_blank" pan="82.79" skinid="ht_url" url="https://en.wikipedia.org/wiki/Chalet_Suzanne" description="" tilt="3.87" title="Wiki"/>
-      <polyhotspot id="Poly01" target="_blank" url="https://boktowergardens.org/tower-gardens/our-history/" description="" title="Bok Tower Official website">
+      <hotspot id="Point01" skinid="ht_node" description="" target="" title="The first schools" pan="-109.73" tilt="-1.6" url="{node6}"/>
+      <hotspot id="Point02" skinid="ht_node" description="" target="" title="Post-war Boom" pan="-31.46" tilt="-0.58" url="{node9}"/>
+      <hotspot id="Point04" skinid="ht_url" description="" target="_blank" title="Wiki" pan="108.05" tilt="1.69" url="https://en.wikipedia.org/wiki/Chalet_Suzanne"/>
+      <hotspot id="Point03" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/Boktower.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&#xa;Bok tower was built in 1929 by Edward W. Bok. Surrounded by botanical gardens, the tower houses carillon bells which are played every day. The towers and gardens are a very popular tourist attraction in central Florida. The gardens were designed by Frederick L. Omstead Jr, whose father designed central park in New York City. This small metal paperweight is a souvenir from the Bok Tower gift shop." target="" title="Bok Tower" pan="-66.68" tilt="9.17" url=""/>
+      <hotspot id="Point05" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/Boktower.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&#xa;Bok tower was built in 1929 by Edward W. Bok. Surrounded by botanical gardens, the tower houses carillon bells which are played every day. The towers and gardens are a very popular tourist attraction in central Florida. The gardens were designed by Frederick L. Omstead Jr, whose father designed central park in New York City. This small metal paperweight is a souvenir from the Bok Tower gift shop." target="" title="Bok Tower souvenier" pan="-53.28" tilt="-3.84" url=""/>
+      <hotspot id="Point06" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/moonsoup1.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/moonsoup2.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&#xa;These two cans were produced by Chalet Suzanne. The chalet was a famous restaurant and inn which many famous people would come to dine at, made easier by the chalet having its own private airstrip. Chalet Suzanne had their own cannery which they used to produce soup, including what would become known as “moon soup”, canned soup that Apollo astronauts took and ate in space on their mission. They also produced canned water which was sold for nuclear attack survival kits (N.A.S.K.).&#xa;&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/NASK1.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/NASK2.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;" target="" title="Soup Cans" pan="92.16" tilt="-38.33" url=""/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="Bok Tower Official website" url="https://boktowergardens.org/tower-gardens/our-history/">
         <vertex pan="-45.34" tilt="-17.48"/>
         <vertex pan="-46.1" tilt="-16.3"/>
         <vertex pan="-46.36" tilt="-10.54"/>
@@ -276,179 +283,184 @@
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition type="irisrectangular" enabled="1" zoomfov="20" softedge="10" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <transition zoomfov="20" enabled="1" zoomspeed="2" type="irisrectangular" softedge="10" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
     <flyintransition enabled="1" speed="1.01"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" simulatemass="1" contextprojections="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" rubberband="0" lockedkeyboard="0" lockedwheel="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="1" hideabout="1">
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" dblclickfullscreen="0" invertcontrol="1" hideabout="1" rubberband="0" contextfullscreen="1" lockedkeyboard="0" contextprojections="1" invertwheel="0" lockedkeyboardzoom="1" speedwheel="1" sensitivity="8" lockedmouse="0" lockedwheel="1">
       <menulink text="Round View Tours &amp; Development" url="http://www.roundviewtours.com"/>
     </control>
   </panorama>
   <panorama id="node9" hideabout="1">
-    <input width="1344" levelbiashidpi="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingroll="0.4" leveltilesize="510" levelbias="0.400" levelingpitch="1.7" overlap="1">
-      <level width="1344" height="1344" preload="0" predecode="0"/>
-      <level width="672" height="672" preload="0" predecode="0"/>
-      <level width="336" height="336" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" levelingpitch="1.7" overlap="1" levelbiashidpi="0.400" height="1344" leveltilesize="510" width="1344" levelingroll="0.4" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1344" predecode="0" preload="0" width="1344"/>
+      <level height="672" predecode="0" preload="0" width="672"/>
+      <level height="336" predecode="1" preload="1" width="336"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="337.5">
-      <start fov="96.6911" pan="19.729" projection="4" tilt="0.984615"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view pannorth="337.5" fovmode="0">
+      <start projection="4" pan="19.729" fov="96.6911" tilt="0.984615"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90"/>
     </view>
-    <userdata info="325 S. Scenic Highway Lake Wales Florida 33853" tags="traintour" longitude="" latitude="" copyright="2017" customnodeid="" comment="" description="Lake Wales Train Depot Museum" datetime="8/29/2017 9:16 AM" author="Round View Tours &amp; Development" title="Post-war Boom" source="Round View Tours &amp; Development"/>
-    <hotspots width="190" height="0" wordwrap="1">
-      <label bordercolor="0x000000" border="1" width="190" textalpha="1" enabled="1" borderalpha="1" background="1" backgroundalpha="1" height="0" borderradius="1" wordwrap="1" textcolor="0xffffff" backgroundcolor="0x191919"/>
-      <polystyle mode="0" bordercolor="0x34302f" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="0" backgroundcolor="0xffffff"/>
-      <polyhotspot id="Poly01" target="_blank" url="http://www.cityoflakewales.com/" description="" title="">
+    <userdata source="Round View Tours &amp; Development" longitude="" datetime="8/29/2017 9:16 AM" tags="traintour" description="Lake Wales Train Depot Museum" comment="" latitude="" title="Post-war Boom" copyright="2017" author="Round View Tours &amp; Development" info="325 S. Scenic Highway Lake Wales Florida 33853" customnodeid=""/>
+    <hotspots wordwrap="1" height="0" width="190">
+      <label borderalpha="1" wordwrap="1" enabled="1" textcolor="0xffffff" border="1" height="0" backgroundcolor="0x191919" bordercolor="0x000000" width="190" borderradius="1" background="1" textalpha="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="0" mode="0" backgroundcolor="0xffffff" bordercolor="0x34302f" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="" url="http://www.cityoflakewales.com/">
         <vertex pan="-132.3" tilt="-65.03"/>
         <vertex pan="-50" tilt="-66.4"/>
         <vertex pan="51.9" tilt="-65.52"/>
         <vertex pan="134.64" tilt="-65.45"/>
       </polyhotspot>
-      <hotspot id="Point01" target="" pan="20.66" skinid="ht_node" url="{node10}" description="" tilt="-4.32" title="The land o citrus"/>
-      <hotspot id="Point02" target="" pan="-103.17" skinid="ht_node" url="{node7}" description="" tilt="-11.12" title="Bok Tower Gardens"/>
+      <hotspot id="Point01" skinid="ht_node" description="" target="" title="The land o citrus" pan="26.21" tilt="0.48" url="{node10}"/>
+      <hotspot id="Point02" skinid="ht_node" description="" target="" title="Bok Tower Gardens" pan="-104.74" tilt="-1.78" url="{node7}"/>
     </hotspots>
     <media/>
-    <transition type="irisrectangular" enabled="1" zoomfov="20" softedge="10" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <transition zoomfov="20" enabled="1" zoomspeed="2" type="irisrectangular" softedge="10" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
     <flyintransition enabled="1" speed="1.01"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" simulatemass="1" contextprojections="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" rubberband="0" lockedkeyboard="0" lockedwheel="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="1" hideabout="1">
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" dblclickfullscreen="0" invertcontrol="1" hideabout="1" rubberband="0" contextfullscreen="1" lockedkeyboard="0" contextprojections="1" invertwheel="0" lockedkeyboardzoom="1" speedwheel="1" sensitivity="8" lockedmouse="0" lockedwheel="1">
       <menulink text="Round View Tours &amp; Development" url="http://www.roundviewtours.com"/>
     </control>
   </panorama>
   <panorama id="node10" hideabout="1">
-    <input width="1344" levelbiashidpi="0.400" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingroll="0.5" leveltilesize="510" levelbias="0.400" levelingpitch="2" overlap="1">
-      <level width="1344" height="1344" preload="0" predecode="0"/>
-      <level width="672" height="672" preload="0" predecode="0"/>
-      <level width="336" height="336" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" levelingpitch="2" overlap="1" levelbiashidpi="0.400" height="1344" leveltilesize="510" width="1344" levelingroll="0.5" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1344" predecode="0" preload="0" width="1344"/>
+      <level height="672" predecode="0" preload="0" width="672"/>
+      <level height="336" predecode="1" preload="1" width="336"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="247.5">
-      <start fov="96.6911" pan="-57.0704" projection="4" tilt="-2.24754"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view pannorth="247.5" fovmode="0">
+      <start projection="4" pan="-57.0704" fov="96.6911" tilt="-2.24754"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90"/>
     </view>
-    <userdata info="325 S. Scenic Highway Lake Wales Florida 33853" tags="traintour" longitude="" latitude="" copyright="2017" customnodeid="" comment="" description="Lake Wales Train Depot Museum" datetime="8/29/2017 9:17 AM" author="Round View Tours &amp; Development" title="The land o citrus" source="Round View Tours &amp; Development"/>
-    <hotspots width="190" height="0" wordwrap="1">
-      <label bordercolor="0x000000" border="1" width="190" textalpha="1" enabled="1" borderalpha="1" background="1" backgroundalpha="1" height="0" borderradius="1" wordwrap="1" textcolor="0xffffff" backgroundcolor="0x191919"/>
-      <polystyle mode="0" bordercolor="0x34302f" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="0" backgroundcolor="0xffffff"/>
-      <polyhotspot id="Poly01" target="_blank" url="http://www.cityoflakewales.com/" description="" title="">
+    <userdata source="Round View Tours &amp; Development" longitude="" datetime="8/29/2017 9:17 AM" tags="traintour" description="Lake Wales Train Depot Museum" comment="" latitude="" title="The land o citrus" copyright="2017" author="Round View Tours &amp; Development" info="325 S. Scenic Highway Lake Wales Florida 33853" customnodeid=""/>
+    <hotspots wordwrap="1" height="0" width="190">
+      <label borderalpha="1" wordwrap="1" enabled="1" textcolor="0xffffff" border="1" height="0" backgroundcolor="0x191919" bordercolor="0x000000" width="190" borderradius="1" background="1" textalpha="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="0" mode="0" backgroundcolor="0xffffff" bordercolor="0x34302f" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="" url="http://www.cityoflakewales.com/">
         <vertex pan="-132.3" tilt="-65.03"/>
         <vertex pan="-50" tilt="-66.4"/>
         <vertex pan="51.9" tilt="-65.52"/>
         <vertex pan="134.64" tilt="-65.45"/>
       </polyhotspot>
-      <hotspot id="Point01" target="" pan="121.73" skinid="ht_node" url="{node9}" description="" tilt="-12.89" title="Post-war Boom"/>
-      <hotspot id="Point02" target="" pan="57.87" skinid="ht_node" url="{node11}" description="" tilt="-7.69" title="Highlander"/>
+      <hotspot id="Point01" skinid="ht_node" description="" target="" title="Post-war Boom" pan="116.33" tilt="-1.64" url="{node9}"/>
+      <hotspot id="Point02" skinid="ht_node" description="" target="" title="Highlander" pan="62.1" tilt="-0.62" url="{node11}"/>
+      <hotspot id="Point03" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/cattlebrand1.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/cattlebrand2.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;Another important industry in the early history of Lake Wales was cattle. Polk county was one of the largest producers of cattle in the state. This branding iron is in the shape “H.B.” which stood for “Hugh B. Alexander”, a prominent cattle rancher in the area. Ranchers in the area would let their cattle intermingle in the fields but each head of cattle would be branded so the owners would know whose cattle belonged to who when they were taken to market at the end of the year." target="" title="Cattle Brand" pan="-146.31" tilt="-43.7" url=""/>
+      <hotspot id="Point04" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/Citrussizer.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&#xa;This small length of twisted metal wire is a citrus sizer. Originally when citrus was being cleaned and processed, it would be sorted by size. Citrus workers would use these citrus sizers to sort. Eventually this process would be made much quicker by mechanical sorters." target="" title="Citrus Sizer" pan="-4.51" tilt="-16.92" url=""/>
+      <hotspot id="Point05" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/Prince%20of%20Wales%20Label.jpg?raw=true&quot; width=&quot;100%&quot;>&#xa;&#xa;&#xa;This Crown Jewel citrus label was produced by the Lake Wales Citrus Growers Association. The labels would be put on crates of citrus as they leave the packing plant to advertise. Labels with blue background were used for Grade #1 citrus and red backgrounds were used for Grade #2, which was of lesser quality. Many fans of Florida History are attracted to the citrus labels and collect them." target="" title="Prince of Wales" pan="9.88" tilt="-22.16" url=""/>
+      <hotspot id="Point06" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/Herdycup1.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/Herdycyp2.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&#xa;&#xa;The herty cup would be used in the turpentine industry. A worker would cut out a chunk of long leaf pine, then a herty cup would be nailed to the tree below it. The cup would collect the dripping resin which would be then processed into turpentine. Turpentine was one of the first major industries in Lake Wales and it was used for cleaning products, lubricants, medicine, and solvents. &#xa;" target="" title="Herdy Cup" pan="-91.63" tilt="-46.14" url=""/>
     </hotspots>
     <media/>
-    <transition type="irisrectangular" enabled="1" zoomfov="20" softedge="10" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <transition zoomfov="20" enabled="1" zoomspeed="2" type="irisrectangular" softedge="10" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
     <flyintransition enabled="1" speed="1.01"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" simulatemass="1" contextprojections="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" rubberband="0" lockedkeyboard="0" lockedwheel="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="1" hideabout="1">
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" dblclickfullscreen="0" invertcontrol="1" hideabout="1" rubberband="0" contextfullscreen="1" lockedkeyboard="0" contextprojections="1" invertwheel="0" lockedkeyboardzoom="1" speedwheel="1" sensitivity="8" lockedmouse="0" lockedwheel="1">
       <menulink text="Round View Tours &amp; Development" url="http://www.roundviewtours.com"/>
     </control>
   </panorama>
   <panorama id="node11" hideabout="1">
-    <input width="1344" levelbiashidpi="0.400" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingroll="0.8" leveltilesize="510" levelbias="0.400" levelingpitch="1.9" overlap="1">
-      <level width="1344" height="1344" preload="0" predecode="0"/>
-      <level width="672" height="672" preload="0" predecode="0"/>
-      <level width="336" height="336" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" levelingpitch="1.9" overlap="1" levelbiashidpi="0.400" height="1344" leveltilesize="510" width="1344" levelingroll="0.8" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1344" predecode="0" preload="0" width="1344"/>
+      <level height="672" predecode="0" preload="0" width="672"/>
+      <level height="336" predecode="1" preload="1" width="336"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="157.5">
-      <start fov="96.6911" pan="-32.9821" projection="4" tilt="-4.75855"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view pannorth="157.5" fovmode="0">
+      <start projection="4" pan="-32.9821" fov="96.6911" tilt="-4.75855"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90"/>
     </view>
-    <userdata info="325 S. Scenic Highway Lake Wales Florida 33853" tags="traintour" longitude="" latitude="" copyright="2017" customnodeid="" comment="" description="Lake Wales Train Depot Museum" datetime="8/29/2017 9:17 AM" author="Round View Tours &amp; Development" title="Highlander" source="Round View Tours &amp; Development"/>
-    <hotspots width="190" height="0" wordwrap="1">
-      <label bordercolor="0x000000" border="1" width="190" textalpha="1" enabled="1" borderalpha="1" background="1" backgroundalpha="1" height="0" borderradius="1" wordwrap="1" textcolor="0xffffff" backgroundcolor="0x191919"/>
-      <polystyle mode="0" bordercolor="0x34302f" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="0" backgroundcolor="0xffffff"/>
-      <polyhotspot id="Poly01" target="_blank" url="http://www.cityoflakewales.com/" description="" title="">
+    <userdata source="Round View Tours &amp; Development" longitude="" datetime="8/29/2017 9:17 AM" tags="traintour" description="Lake Wales Train Depot Museum" comment="" latitude="" title="Highlander" copyright="2017" author="Round View Tours &amp; Development" info="325 S. Scenic Highway Lake Wales Florida 33853" customnodeid=""/>
+    <hotspots wordwrap="1" height="0" width="190">
+      <label borderalpha="1" wordwrap="1" enabled="1" textcolor="0xffffff" border="1" height="0" backgroundcolor="0x191919" bordercolor="0x000000" width="190" borderradius="1" background="1" textalpha="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="0" mode="0" backgroundcolor="0xffffff" bordercolor="0x34302f" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="" url="http://www.cityoflakewales.com/">
         <vertex pan="-132.3" tilt="-65.03"/>
         <vertex pan="-50" tilt="-66.4"/>
         <vertex pan="51.9" tilt="-65.52"/>
         <vertex pan="134.64" tilt="-65.45"/>
       </polyhotspot>
-      <hotspot id="Point01" target="" pan="-158.86" skinid="ht_node" url="{node10}" description="" tilt="-14.21" title="The land o citrus"/>
-      <hotspot id="Point02" target="" pan="5.46" skinid="ht_node" url="{node12}" description="" tilt="-2.35" title="Refugees and Runaways"/>
+      <hotspot id="Point01" skinid="ht_node" description="" target="" title="The land o citrus" pan="-156.52" tilt="-1.62" url="{node10}"/>
+      <hotspot id="Point02" skinid="ht_node" description="" target="" title="Refugees and Runaways" pan="4.93" tilt="3.5" url="{node12}"/>
     </hotspots>
     <media/>
-    <transition type="irisrectangular" enabled="1" zoomfov="20" softedge="10" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <transition zoomfov="20" enabled="1" zoomspeed="2" type="irisrectangular" softedge="10" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
     <flyintransition enabled="1" speed="1.01"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" simulatemass="1" contextprojections="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" rubberband="0" lockedkeyboard="0" lockedwheel="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="1" hideabout="1">
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" dblclickfullscreen="0" invertcontrol="1" hideabout="1" rubberband="0" contextfullscreen="1" lockedkeyboard="0" contextprojections="1" invertwheel="0" lockedkeyboardzoom="1" speedwheel="1" sensitivity="8" lockedmouse="0" lockedwheel="1">
       <menulink text="Round View Tours &amp; Development" url="http://www.roundviewtours.com"/>
     </control>
   </panorama>
   <panorama id="node12" hideabout="1">
-    <input width="1344" levelbiashidpi="0.400" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingroll="0.9" leveltilesize="510" levelbias="0.400" levelingpitch="1.8" overlap="1">
-      <level width="1344" height="1344" preload="0" predecode="0"/>
-      <level width="672" height="672" preload="0" predecode="0"/>
-      <level width="336" height="336" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" levelingpitch="1.8" overlap="1" levelbiashidpi="0.400" height="1344" leveltilesize="510" width="1344" levelingroll="0.9" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1344" predecode="0" preload="0" width="1344"/>
+      <level height="672" predecode="0" preload="0" width="672"/>
+      <level height="336" predecode="1" preload="1" width="336"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="247.5">
-      <start fov="84.2799" pan="137.188" projection="4" tilt="-1.82424"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view pannorth="247.5" fovmode="0">
+      <start projection="4" pan="137.188" fov="84.2799" tilt="-1.82424"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90"/>
     </view>
-    <userdata info="325 S. Scenic Highway Lake Wales Florida 33853" tags="traintour" longitude="" latitude="" copyright="2017" customnodeid="" comment="" description="Lake Wales Train Depot Museum" datetime="8/29/2017 9:17 AM" author="Round View Tours &amp; Development" title="Refugees and Runaways" source="Round View Tours &amp; Development"/>
-    <hotspots width="190" height="0" wordwrap="1">
-      <label bordercolor="0x000000" border="1" width="190" textalpha="1" enabled="1" borderalpha="1" background="1" backgroundalpha="1" height="0" borderradius="1" wordwrap="1" textcolor="0xffffff" backgroundcolor="0x191919"/>
-      <polystyle mode="0" bordercolor="0x34302f" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="0" backgroundcolor="0xffffff"/>
-      <polyhotspot id="Poly01" target="_blank" url="http://www.cityoflakewales.com/" description="" title="">
+    <userdata source="Round View Tours &amp; Development" longitude="" datetime="8/29/2017 9:17 AM" tags="traintour" description="Lake Wales Train Depot Museum" comment="" latitude="" title="Refugees and Runaways" copyright="2017" author="Round View Tours &amp; Development" info="325 S. Scenic Highway Lake Wales Florida 33853" customnodeid=""/>
+    <hotspots wordwrap="1" height="0" width="190">
+      <label borderalpha="1" wordwrap="1" enabled="1" textcolor="0xffffff" border="1" height="0" backgroundcolor="0x191919" bordercolor="0x000000" width="190" borderradius="1" background="1" textalpha="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="0" mode="0" backgroundcolor="0xffffff" bordercolor="0x34302f" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="" url="http://www.cityoflakewales.com/">
         <vertex pan="-132.3" tilt="-65.03"/>
         <vertex pan="-50" tilt="-66.4"/>
         <vertex pan="51.9" tilt="-65.52"/>
         <vertex pan="134.64" tilt="-65.45"/>
       </polyhotspot>
-      <hotspot id="Point01" target="" pan="-92.38" skinid="ht_node" url="{node11}" description="" tilt="-6.1" title="Highlander"/>
-      <hotspot id="Point02" target="" pan="36.92" skinid="ht_node" url="{node19}" description="" tilt="-1.11" title="The train cars"/>
+      <hotspot id="Point01" skinid="ht_node" description="" target="" title="Highlander" pan="-92.38" tilt="-6.1" url="{node11}"/>
+      <hotspot id="Point02" skinid="ht_node" description="" target="" title="The train cars" pan="36.92" tilt="-1.11" url="{node19}"/>
+      <hotspot id="Point03" skinid="ht_info" description="&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/canoe1.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&lt;img src=&quot;https://github.com/centelred/traindepot/blob/master/photos/canoe2.jpeg?raw=true&quot; width=&quot;100%&quot;>&#xa;&#xa;&#xa;The canoe is twenty-one foot long and was created circa 984 CE. At that time, the Timucua and Calusa tribes lived in the area. It was salvaged from Lake Hancock which is north of Bartow, Polk County, Florida. The canoe was preserved by the State of Florida, Bureau of Archaeological Research. The canoe is currently on loan to the museum from the Bureau of Archaeological Research.&#xa;&#xa;" target="" title="Lake Hancock Canoe" pan="-6.18" tilt="-41.45" url=""/>
     </hotspots>
     <media/>
-    <transition type="irisrectangular" enabled="1" zoomfov="20" softedge="10" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <transition zoomfov="20" enabled="1" zoomspeed="2" type="irisrectangular" softedge="10" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
     <flyintransition enabled="1" speed="1.01"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" simulatemass="1" contextprojections="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" rubberband="0" lockedkeyboard="0" lockedwheel="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="1" hideabout="1">
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" dblclickfullscreen="0" invertcontrol="1" hideabout="1" rubberband="0" contextfullscreen="1" lockedkeyboard="0" contextprojections="1" invertwheel="0" lockedkeyboardzoom="1" speedwheel="1" sensitivity="8" lockedmouse="0" lockedwheel="1">
       <menulink text="Round View Tours &amp; Development" url="http://www.roundviewtours.com"/>
     </control>
   </panorama>
   <panorama id="node19" hideabout="1">
-    <input width="1344" levelbiashidpi="0.400" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1344" levelingroll="1.3" leveltilesize="510" levelbias="0.400" levelingpitch="4" overlap="1">
-      <level width="1344" height="1344" preload="0" predecode="0"/>
-      <level width="672" height="672" preload="0" predecode="0"/>
-      <level width="336" height="336" preload="1" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+    <input levelbias="0.400" levelingpitch="4" overlap="1" levelbiashidpi="0.400" height="1344" leveltilesize="510" width="1344" levelingroll="1.3" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level height="1344" predecode="0" preload="0" width="1344"/>
+      <level height="672" predecode="0" preload="0" width="672"/>
+      <level height="336" predecode="1" preload="1" width="336"/>
+      <preview strip="1" color="0x808080"/>
     </input>
-    <view fovmode="0" pannorth="112.5">
-      <start fov="75.1634" pan="18.5875" projection="4" tilt="3.78329"/>
-      <flyin fov="170" pan="0" projection="9" tilt="-90"/>
-      <min fov="5" pan="0" tilt="-90"/>
-      <max fovfisheye="360" fov="120" pan="360" fovstereographic="270" scaletofit="1" tilt="90"/>
+    <view pannorth="112.5" fovmode="0">
+      <start projection="4" pan="18.5875" fov="75.1634" tilt="3.78329"/>
+      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
+      <min fovpixel="1" pan="0" tilt="-90"/>
+      <max fovstereographic="270" scaletofit="1" pan="360" fovfisheye="360" fov="120" tilt="90"/>
     </view>
-    <userdata info="325 S. Scenic Highway Lake Wales Florida 33853" tags="traintour" longitude="" latitude="" copyright="2017" customnodeid="" comment="" description="Lake Wales Train Depot Museum" datetime="8/29/2017 9:24 AM" author="Round View Tours &amp; Development" title="The train cars" source="Round View Tours &amp; Development"/>
-    <hotspots width="190" height="0" wordwrap="1">
-      <label bordercolor="0x000000" border="1" width="190" textalpha="1" enabled="1" borderalpha="1" background="1" backgroundalpha="1" height="0" borderradius="1" wordwrap="1" textcolor="0xffffff" backgroundcolor="0x191919"/>
-      <polystyle mode="0" bordercolor="0x34302f" borderalpha="1" backgroundalpha="0.2509803921568627" handcursor="0" backgroundcolor="0xffffff"/>
-      <polyhotspot id="Poly01" target="_blank" url="http://www.cityoflakewales.com/" description="" title="">
+    <userdata source="Round View Tours &amp; Development" longitude="" datetime="8/29/2017 9:24 AM" tags="traintour" description="Lake Wales Train Depot Museum" comment="" latitude="" title="The train cars" copyright="2017" author="Round View Tours &amp; Development" info="325 S. Scenic Highway Lake Wales Florida 33853" customnodeid=""/>
+    <hotspots wordwrap="1" height="0" width="190">
+      <label borderalpha="1" wordwrap="1" enabled="1" textcolor="0xffffff" border="1" height="0" backgroundcolor="0x191919" bordercolor="0x000000" width="190" borderradius="1" background="1" textalpha="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="0" mode="0" backgroundcolor="0xffffff" bordercolor="0x34302f" backgroundalpha="0.2509803921568627"/>
+      <polyhotspot id="Poly01" description="" target="_blank" title="" url="http://www.cityoflakewales.com/">
         <vertex pan="-132.3" tilt="-65.03"/>
         <vertex pan="-50" tilt="-66.4"/>
         <vertex pan="51.9" tilt="-65.52"/>
         <vertex pan="134.64" tilt="-65.45"/>
       </polyhotspot>
-      <hotspot id="Point01" target="" pan="163.19" skinid="ht_node" url="{node12}" description="" tilt="-0.15" title="Refugees and Runaways"/>
+      <hotspot id="Point01" skinid="ht_node" description="" target="" title="Refugees and Runaways" pan="163.29" tilt="1.39" url="{node12}"/>
     </hotspots>
     <media/>
-    <transition type="irisrectangular" enabled="1" zoomfov="20" softedge="10" zoomin="0" blendtime="1" zoomout="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1"/>
+    <transition zoomfov="20" enabled="1" zoomspeed="2" type="irisrectangular" softedge="10" zoomin="0" blendtime="1" blendcolor="0x000000" zoomout="0" zoomoutpause="1"/>
     <flyintransition enabled="1" speed="1.01"/>
-    <animation useinautorotation="0" syncanimationwithvideo="0"/>
-    <control sensitivity="8" simulatemass="1" contextprojections="1" dblclickfullscreen="0" contextfullscreen="1" lockedmouse="0" invertcontrol="1" rubberband="0" lockedkeyboard="0" lockedwheel="1" invertwheel="0" speedwheel="1" lockedkeyboardzoom="1" hideabout="1">
+    <animation syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" dblclickfullscreen="0" invertcontrol="1" hideabout="1" rubberband="0" contextfullscreen="1" lockedkeyboard="0" contextprojections="1" invertwheel="0" lockedkeyboardzoom="1" speedwheel="1" sensitivity="8" lockedmouse="0" lockedwheel="1">
       <menulink text="Round View Tours &amp; Development" url="http://www.roundviewtours.com"/>
     </control>
   </panorama>
