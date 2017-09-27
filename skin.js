@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.2.2/15983
 // Filename: silhouettetest.ggsk
-// Generated Wed Sep 27 11:31:23 2017
+// Generated Wed Sep 27 11:40:22 2017
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -1710,9 +1710,9 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='cursor : pointer;';
 		hs+='height : 32px;';
-		hs+='left : 450px;';
+		hs+='left : 290px;';
 		hs+='position : absolute;';
-		hs+='top : -14px;';
+		hs+='top : -29px;';
 		hs+='visibility : inherit;';
 		hs+='width : 32px;';
 		hs+='pointer-events:auto;';
